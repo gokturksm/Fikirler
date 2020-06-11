@@ -1,0 +1,6 @@
+00079
+1. şu anki anın güneş değerini al
+2. önceki günün tahmini çizgisini al
+3. bu değere göre, tahmini güneş eğirisi elde et bundan sonrası için
+4. ilerletme fonksiyonunu kullan en iyi yeri bul
+5. ilerletme fonksiyonunda sadece bizim ev olsun? diğerleri olmasın, diğerlerini sıfırla çarp. böylece sadece bizim etkimiz görülür.
