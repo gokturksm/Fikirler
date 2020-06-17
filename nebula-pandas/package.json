@@ -1,0 +1,35 @@
+{
+    "name": "nebula-pandas",
+    "displayName": "Nebula Pandas",
+    "description": "ChirtleLovesDolls' lovely Nebula theme with a touch of Pandas.",
+    "version": "0.0.1",
+    "publisher": "GokturkSM",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "license": "MIT",
+    "categories": [
+        "Themes"
+    ],
+    "keywords": [
+        "color",
+        "theme",
+        "color-theme",
+        "dark",
+        "pandas"
+    ],
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#27273A",
+        "theme": "dark"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nebula Pandas Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nebula Pandas Theme-color-theme.json"
+            }
+        ]
+    }
+}
