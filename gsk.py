@@ -1,6 +1,9 @@
 import numpy as np
 import pandas as pd
 
+df = pd.DataFrame(data=5)
+
+
 def complex_degree(z, deg=0):
     rad = np.deg2rad(deg)
     a: float = z * np.cos(rad)
@@ -14,7 +17,7 @@ def voltage(val: float, val_type: str='eff') -> float:
     elif val_type is 'eff':
         result = val
     else:
-        result = 'invalid'
+        result = 0.0
     return result
 
 
@@ -58,6 +61,5 @@ complex_c = complex_a * donusum_matrisi[1]
 z1, deg1 = get_result(complex_a)
 z2, deg2 = get_result(complex_b)
 z3, deg3 = get_result(complex_c)
-
 
 
