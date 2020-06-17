@@ -18,7 +18,7 @@
         "dark",
         "pandas"
     ],
-    "icon": "icon.png",
+    "icon": "https://raw.githubusercontent.com/gokturksm/Fikirler/master/nebula-pandas/icon.png",
     "galleryBanner": {
         "color": "#27273A",
         "theme": "dark"
