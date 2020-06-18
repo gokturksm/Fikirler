@@ -699,6 +699,12 @@
 			}
 		},
 		{
+			"scope": "constant.language.python",
+			"settings": {
+				"foreground": "#d428ff"
+			}
+		},
+		{
 			"scope": [
 				"meta.link.inline.markdown",
 				"meta.image.inline.markdown",

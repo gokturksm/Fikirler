@@ -16,7 +16,6 @@ def tabbed_to_df(file_name: str) -> pd.DataFrame:
     df.index = pd.to_datetime(df.index, format="%d/%m/%Y")
     return df
 
-
 file_names = ['GAU', 'IPP']
 file_paths = [f"{f}.txt" for f in file_names]
 isbank_data = [tabbed_to_df(f) for f in file_paths]

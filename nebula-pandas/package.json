@@ -2,7 +2,7 @@
     "name": "nebula-pandas",
     "displayName": "Nebula Pandas",
     "description": "ChirtleLovesDolls' lovely Nebula theme with a touch of Pandas.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "publisher": "GokturkSM",
     "engines": {
         "vscode": "^1.46.0"

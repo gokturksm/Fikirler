@@ -23,7 +23,7 @@ def df_formatter(num: int):
     
     d = np.append(d[0], [d[1][2:]])
     d = pd.Series(d)
-    d.index = column_names
+    df.index = column_names
     return d
 
 desired_df = pd.DataFrame(columns=column_names)

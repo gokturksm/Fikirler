@@ -17,4 +17,3 @@ df3 = pd.concat([df2, df2.add_suffix('+1').shift(-1)], axis=1)
 df4 = df3.iloc[::2]
 
 df4 = df4.drop(columns=['Date+1', 'Name+1', 'Origin+1']).reset_index(drop=True)
-
