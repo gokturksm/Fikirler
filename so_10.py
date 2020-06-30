@@ -27,3 +27,4 @@ all_data = all_data.unstack(level=0).dropna().droplevel(0, axis=1)
 
 all_data.loc[:, 'GAU']
 
+print(all_data)
